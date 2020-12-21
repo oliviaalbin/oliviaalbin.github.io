@@ -1,10 +1,151 @@
 /* your css here */
 
+main {padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%}
+
+.navbar-nav {padding-right: 3%}
+
+p {font-size: 14pt;}
+
+nav {position: fixed}
+
+.main-title {font-size: 40pt; font-weight: 550}
+
+h1 {font-weight: bold;}
+
+.main-subtitle {
+    font-size: 14pt;
+    color: var(--accent-gray)
+}
+
+.my-angle {
+    color: var(--accent-gray);
+    font-size: 16pt;
+    font-style: italic
+}
+
+.article-refs {
+    font-size: 11pt;
+}
+
+.project1 {position: relative; bottom: 100px}
+
+footer {position: static; left:0 ;bottom: 0}
+
+main {padding-bottom: 200px}
+
+/* INDEX IMG CONTAINERS */
+div.container-fluid-index-img {
+    height: 20em;
+    position: relative;
+}
+.index-shelf-img {
+    max-width: 100%;
+}
+.index-brighttype1-img {
+    max-width: 50%;
+    margin:0;
+    position: absolute;
+    top: 5%
+}
+
+/* GMP2 IMG CONTAINERS */
+div.container-fluid-garden-img {
+    height: 33em;
+    position: relative;
+}
+.shelf-img {
+    max-width: 75%;
+    margin:0;
+    position: absolute;
+    top:40%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.guide1-img {
+    max-width: 30%;
+    margin:0;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.guide3-img {
+    max-width: 30%;
+    margin:0;
+    position: absolute;
+    top: 100%;
+    left: 67%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* ABOUT IMG CONTAINERS */
+div.container-fluid-profile-pic {
+    height: 30em;
+    position: relative;
+}
+.profile-pic {
+    max-width: 100%;
+    margin:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-primary {
+    background-color: whitesmoke;
+    border-color: var(--link-color);
+    margin-left: 3rem
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn:hover {
+    background-color: var(--link-hover);
+    border-color: var(--link-hover)
+}
+
 /* color scheme */
 :root {
-    --header-bg-color: #222;
-    --header-txt-color: #aaa;
+    --header-bg-color: rgb(32, 32, 32);
+    --header-txt-color: white;
     --header-highlight-color: white;
+    --link-color: #0057ff;
+    --link-visited: #0057ff;
+    --link-hover: #4483ff;
+    --accent-gray: rgb(117, 117, 117);
+    --accent-red: rgb(230, 15, 15);
+    --accent-blue: #0057ff;
+    --accent-purple: rgb(87, 0, 128);
+    --accent-green: rgb(1, 153, 47);
+    --bright-type-purple: #9000FF
 }
 
 .contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
@@ -30,3 +171,24 @@ footer {
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     color: inherit;
 }
+
+h4 {color: var(--accent-gray)}
+
+a:link {
+    color: var(--link-color)
+}
+
+a:visited {color: var(--link-visited)}
+
+a:hover {color: var(--link-hover)}
+
+/* INDEX */
+#intro-name {color: var(--accent-red)}
+#garden-title {color: var(--accent-green)}
+#bright-type-title {color: var(--bright-type-purple)}
+
+/* ABOUT ME */
+#about-me {color: var(--accent-purple)}
+
+/* CONTACT PAGE */
+#contact-me {color: var(--accent-blue)}
