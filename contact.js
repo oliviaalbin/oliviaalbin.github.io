@@ -4,7 +4,7 @@ module.exports = class extends Page {
     constructor(){
         // change localhost to heroku here
         // and the name to yours
-        super({title:"Contact", sName:"Olivia Albin", sAction:"https://secure-lake-25855.herokuapp.com/"});
+        super({title:"Contact", sName:"Olivia Albin", sAction:"https://secure-lake-25855.herokuapp.com/send"});
     }
     render(sPage) {
         return `
