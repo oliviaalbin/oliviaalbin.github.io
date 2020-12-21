@@ -37,14 +37,14 @@ main {padding-bottom: 200px}
 
 /* INDEX IMG CONTAINERS */
 div.container-fluid-index-img {
-    height: 20em;
+    height: 10em;
     position: relative;
 }
 .index-shelf-img {
     max-width: 100%;
 }
 .index-brighttype1-img {
-    max-width: 50%;
+    max-width: 60%;
     margin:0;
     position: absolute;
     top: 5%
