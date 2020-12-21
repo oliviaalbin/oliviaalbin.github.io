@@ -35,36 +35,36 @@
 </div>
         
     <main>  
+        <div class="container">
+            <h1 id="contact-me">Contact</h1>
+            <br/>
+            <h2 id="get-in-touch">If you have any questions about my work, please get in touch.</h2>
+            <br/>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/oliviaalbin/">Olivia Albin</a></p>
+            <br/>
+            <h3><strong>Get in touch:</strong></h3>
 
-        <h1 id="contact-me">Contact</h1>
-        <br/>
-        <h2 id="get-in-touch">If you have any questions about my work, please get in touch.</h2>
-        <br/>
-        <div></div><p>LinkedIn: <a href="https://www.linkedin.com/in/oliviaalbin/">Olivia Albin</a></p></div>
-        <br/>
-        <h3><strong>Get in touch:</strong></h3>
+            <form action="https://secure-lake-25855.herokuapp.com/send" method="POST">
+                <!-- add a div.form-group rather than the <br />-->
+                <div class="form-group">
+                    <!-- give inputs the class form-control -->
+                    <label>Name: <input name="name" placeholder="name" class="form-control" /></label>
+                </div>
+                <div class="form-group">
+                    <label>Email:<input name="email" placeholder="email" type="email" class="form-control" /></label>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number:<input name="phone" placeholder="telephone" type="tel"
+                            class="form-control" /></label>
+                </div>
+                <div class="form-group">
+                    <label>Message:<textarea name="message" placeholder="type your message here"
+                            class="form-control"></textarea></label>
+                </div>
+                <button type="submit">Send Message</button>
 
-        <form action="https://secure-lake-25855.herokuapp.com/" method="POST">
-            <!-- add a div.form-group rather than the <br />-->
-            <div class="form-group">
-                <!-- give inputs the class form-control -->
-                <label>Name: <input name="name" placeholder="name" class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Email:<input name="email" placeholder="email" type="email" class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Phone Number:<input name="phone" placeholder="telephone" type="tel"
-                        class="form-control" /></label>
-            </div>
-            <div class="form-group">
-                <label>Message:<textarea name="message" placeholder="type your message here"
-                        class="form-control"></textarea></label>
-            </div>
-            <button type="submit">Send Message</button>
-
-        </form>
-        
+            </form>
+        </div>
     </main>
     
 <footer>
