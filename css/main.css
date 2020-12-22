@@ -4,7 +4,15 @@ main {padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%}
 
-.navbar-nav {padding-right: 3%}
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 450;
+}
+
+    .navbar-nav {
+    font-size: 1.3em;
+    padding-right: 3%
+}
 
 p {font-size: 1.2em;}
 
