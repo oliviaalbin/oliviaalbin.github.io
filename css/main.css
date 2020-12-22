@@ -44,7 +44,7 @@ div.container-fluid-index-img {
     max-width: 100%;
 }
 .index-brighttype1-img {
-    max-width: 60%;
+    max-width: 70%;
     margin:0;
     position: absolute;
     top: 5%
@@ -101,9 +101,9 @@ div.container-fluid-profile-pic {
 }
 
 .btn-primary {
-    background-color: whitesmoke;
+    background-color: rgb(230, 230, 230);
     border-color: var(--link-color);
-    margin-left: 3rem
+    margin-bottom: 2em;
 }
 
 .btn {
