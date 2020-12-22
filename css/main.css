@@ -6,27 +6,27 @@ main {padding-top: 1%;
 
 .navbar-nav {padding-right: 3%}
 
-p {font-size: 14pt;}
+p {font-size: 1.2em;}
 
 nav {position: fixed}
 
-.main-title {font-size: 40pt; font-weight: 550}
+.main-title {font-size: 3.8em; font-weight: 550}
 
 h1 {font-weight: bold;}
 
 .main-subtitle {
-    font-size: 14pt;
+    font-size: 1.2em;
     color: var(--accent-gray)
 }
 
 .my-angle {
     color: var(--accent-gray);
-    font-size: 16pt;
+    font-size: 1.35em;
     font-style: italic
 }
 
 .article-refs {
-    font-size: 11pt;
+    font-size: 0.8em;
 }
 
 .project1 {position: relative; bottom: 100px}
@@ -34,6 +34,8 @@ h1 {font-weight: bold;}
 footer {position: static; left:0 ;bottom: 0}
 
 main {padding-bottom: 200px}
+
+img {border-style: none}
 
 /* INDEX IMG CONTAINERS */
 div.container-fluid-index-img {
